@@ -12,7 +12,7 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 strategy:
-  matrix:
+  runOnce:
     Python27:
       python.version: '2.7'
     Python35:
